@@ -2,28 +2,28 @@
 
 --- you can add a 4th value if you want to change the transparency
 local colors <const> = {
-   RED = {255, 150, 150}, --- RED players
-   BLU = {150, 150, 255}, --- BLU players
-   LOCALPLAYER = {0, 255, 221}, --- you
-   TARGET = {128, 255, 0}, --- aimbot target
-   PRIORITY = {255, 255, 0}, --- players with priority higher than 0
-   FRIEND = {0, 255, 221}, --- players with priority lower than 0
+   RED = {0, 255, 0}, --- RED players
+   BLU = {0, 255, 0}, --- BLU players
+   LOCALPLAYER = {0, 255, 0}, --- you
+   TARGET = {0, 255, 0}, --- aimbot target
+   PRIORITY = {0, 255, 0}, --- players with priority higher than 0
+   FRIEND = {0, 255, 0}, --- players with priority lower than 0
 
-   RED_SENTRY = {255, 0, 0},
-   BLU_SENTRY = {0, 255, 255},
+   RED_SENTRY = {0, 255, 0},
+   BLU_SENTRY = {0, 255, 0},
 
-   RED_DISPENSER = {255, 0, 0},
+   RED_DISPENSER = {0, 255, 0},
    BLU_DISPENSER = {0, 255, 255},
 
-   RED_TELEPORTER = {255, 0, 0},
-   BLU_TELEPORTER = {0, 255, 255},
+   RED_TELEPORTER = {0, 255, 0}},
+   BLU_TELEPORTER = {0, 255, 0}},
 
-   RED_HAT = {255, 0, 0},
-   BLU_HAT = {0, 255, 255},
+   RED_HAT = {0, 255, 0}},
+   BLU_HAT = {0, 255, 0}},
 
-   PRIMARY_WEAPON = {163, 64, 90},
-   SECONDARY_WEAPON = {74, 79, 125},
-   MELEE_WEAPON = {255, 255, 255},
+   PRIMARY_WEAPON = {0, 255, 0}},
+   SECONDARY_WEAPON = {0, 255, 0}},
+   MELEE_WEAPON = {0, 255, 0}},
 }
 
 ---@param entity Entity
